@@ -1,0 +1,23 @@
+{
+  "name": "aee_tiendaonline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evarodriguezdelgado8/AEE_TiendaOnline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evarodriguezdelgado8/AEE_TiendaOnline/issues"
+  },
+  "homepage": "https://github.com/evarodriguezdelgado8/AEE_TiendaOnline#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
