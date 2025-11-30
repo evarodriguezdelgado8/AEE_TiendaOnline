@@ -1,4 +1,4 @@
-# 🎄 Tienda Navidad - SPA Offline-First
+# 🎄 Tienda Navidad
 
 Proyecto para el módulo Desarrollo Web en Entorno Cliente (DWEC) - RA4.  
 Una aplicación web que simula una arquitectura Offline-First utilizando LocalStorage para la persistencia de datos y Node.js para la seguridad del backend.
