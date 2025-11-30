@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Categorías - Tienda Navidad</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <div class="snow-container">
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+  </div>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <div class="icon">🎄</div>
+        <div class="logo-text">
+          <div class="logo-title">Tienda Navidad</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <nav class="nav">
+          <a href="dashboard.html" class="nav-link">Inicio</a>
+          <a href="categorias.html" class="nav-link active">Categorías</a>
+          <a href="carrito.html" class="nav-link">
+            <span>🛒</span> Carrito
+          </a>
+        </nav>
+        <button id="btnLogout" class="btn btn--ghost">Cerrar sesión</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Categorías</h3>
+        <ul id="listaCategorias" class="category-list"></ul>
+      </aside>
+
+      <main class="main-content">
+        <h2 id="tituloCategoria" class="page-title">Categoría</h2>
+        <div id="productosCategoria" class="grid"></div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <p>© 2024 Tienda Navidad</p>
+      <p class="footer-decoration">✨ 🎅 ✨</p>
+    </footer>
+  </div>
+
+  <script type="module" src="js/categorias.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "categorias": [
+    { "id": 1, "nombre": "Decoración Navideña" },
+    { "id": 2, "nombre": "Dulces y Chocolates" },
+    { "id": 3, "nombre": "Juguetes" }
+  ],
+  "productos": [
+    {
+      "id": "p001",
+      "nombre": "Adorno bola roja (pack 6)",
+      "precio": 9.99,
+      "destacado": true,
+      "recomendado": false,
+      "id_categoria": 1,
+      "imagen": "https://tradineur.com/10598-large_default/tradineur--set-de-6-bolas-para-arbol-navideno--fabricado-en-plastico--decoracion-para-temporada-navidena---8-cm--color-rojo.jpg",
+      "descripcion": "Pack de 6 bolas rojas brillantes para árbol."
+    },
+    {
+      "id": "p002",
+      "nombre": "Guirnalda iluminada 2m",
+      "precio": 19.90,
+      "destacado": false,
+      "recomendado": true,
+      "id_categoria": 1,
+      "imagen": "https://ae01.alicdn.com/kf/H04a1233170ab45d29dc6eac822809907s.jpg",
+      "descripcion": "Guirnalda con 50 LED, ideal para interiores."
+    },
+    {
+      "id": "p003",
+      "nombre": "Bola de nieve musical",
+      "precio": 19.0,
+      "destacado": true,
+      "recomendado": false,
+      "id_categoria": 3,
+      "imagen": "https://m.media-amazon.com/images/I/71QXdRC6hsL.jpg",
+      "descripcion": "Bola musical con escena navideña."
+    },
+    {
+      "id": "p004",
+      "nombre": "Surtido de turrones",
+      "precio": 60.00,
+      "destacado": true,
+      "recomendado": false,
+      "id_categoria": 2,
+      "imagen": "https://estaticos-cdn.prensaiberica.es/clip/c18d9c5a-fefb-48ff-adfe-cd8c699f8805_16-9-discover-aspect-ratio_default_0.jpg",
+      "descripcion": "Surtido de turrones variados de gran calidad."
+    },
+    {
+      "id": "p005",
+      "nombre": "Muñeco Papá Noel de peluche",
+      "precio": 15.00,
+      "destacado": false,
+      "recomendado": true,
+      "id_categoria": 3,
+      "imagen": "https://m.media-amazon.com/images/I/71ZLJtHEMUL.jpg",
+      "descripcion": "Peluche suave de Papá Noel, 30 cm."
+    },
+    {
+      "id": "p006",
+      "nombre": "Caja de galletas de jengibre",
+      "precio": 7.5,
+      "destacado": false,
+      "recomendado": true,
+      "id_categoria": 2,
+      "imagen": "https://pasteleriachocolat.com/wp-content/uploads/galletasjengibre_web.jpg",
+      "descripcion": "Caja con 12 galletas caseras de jengibre."
+    }
+  ]
+}
