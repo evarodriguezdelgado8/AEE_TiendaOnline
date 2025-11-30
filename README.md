@@ -1,18 +1,18 @@
-🎄 Tienda de Navidad - Proyecto DWEC (RA4)
+🎄 **Tienda de Navidad**
 
-Este proyecto es una Single Page Application (SPA) simulada con arquitectura Offline-First, desarrollada con Node.js en el backend y JavaScript Vanilla en el frontend.
+  Este proyecto es una Single Page Application (SPA) simulada con arquitectura Offline-First, desarrollada con Node.js en el backend y JavaScript en el frontend.
 
-🚀 Características Principales
+🚀 **Características Principales**
 
-Arquitectura Offline-First:
+  Arquitectura Offline-First:
 
-Al hacer login, el servidor envía toda la información de la tienda (productos y categorías).
+  Al hacer login, el servidor envía toda la información de la tienda (productos y categorías).
 
-El cliente guarda estos datos en localStorage.
+  El cliente guarda estos datos en localStorage.
 
-La navegación (Dashboard, Categorías, Detalles) es instantánea y no requiere peticiones al servidor.
+  La navegación (Dashboard, Categorías, Detalles) es instantánea y no requiere peticiones al servidor.
 
-Seguridad Anti-Fraude:
+ ** Seguridad Anti-Fraude:**
 
 Validación de Precios: Aunque el cliente manipule el precio en el localStorage, el servidor recalcula el total basándose en su propia base de datos (tienda.json) antes de aceptar el pedido.
 
