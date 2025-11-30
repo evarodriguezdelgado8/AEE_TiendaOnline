@@ -498,6 +498,11 @@ main h2,
   font-size: 64px;
   margin-bottom: 20px;
   animation: pulse 2s ease-in-out infinite;
+  
+  /* AÑADIDO: Asegura el centrado perfecto */
+  display: flex;           /* Convierte el contenedor del icono en flexible */
+  justify-content: center; /* Centra el árbol horizontalmente */
+  width: 100%;             /* Asegura que el div ocupe todo el ancho disponible */
 }
 
 @keyframes pulse {
